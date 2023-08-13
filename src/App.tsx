@@ -1,7 +1,12 @@
-import React from "react"
+import { Header, Footer, AppRouter } from "./components"
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
-	return <div>Тут div, прикольно)</div>
+  return (
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
+  )
 }
 
 export default App
